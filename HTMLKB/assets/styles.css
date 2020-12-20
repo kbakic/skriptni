@@ -1,0 +1,95 @@
+@font-face{
+    src: url(DrukWide-Medium.ttf);
+    font-family: DrukWide;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    font-family: DrukWide;
+}
+
+.outside{
+    background-color: black;
+}
+.navigation{
+    color: white;
+    padding-left: 50px;
+}
+.navigation a{
+    font-family: DrukWide;
+    font-size: 12pt;
+    float: right;
+    padding-top: 35px;
+    padding-right: 50px;
+}
+.logo{
+    padding-top: 20px;
+}
+.zlatna{
+    float: right;
+    width: 30%;
+    height: 30%;
+    top: 0;
+}
+.navigation a:link,.navigation  a:visited,.navigation a:hover,.navigation a:active{
+    color: white;
+    text-decoration: none;
+}
+.motorcycle{
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top:2%;
+    right: 36%;
+}
+.stats{
+    margin-right: -440px;
+    margin-top: 220px;
+    display: block;
+    float: right;
+}
+.smalltext{
+    color:white;
+    font-size: 6pt;
+}
+.sidetext{
+    color:#3F3E44;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-left:-220px;
+    padding-right: 120px;
+    padding-left: 180px;
+    margin-top: 70px;
+    font-size: 8pt;
+    text-align: center;
+}
+.bigtext{
+    font-size: 16pt;
+    color: white;
+}
+.guma{
+    margin-right: -500px;
+    margin-top: -500px;
+    width: 18%;
+    padding-bottom: 113px;
+}
+.group{
+    position: relative;
+}
+.vector{
+    margin-top: -10%;
+    width: 100%;
+}
+.motor{
+    width:18%;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    margin-top:-20px;
+}
+.info{
+    padding-bottom: 70px;
+    padding-left:20px;
+}
