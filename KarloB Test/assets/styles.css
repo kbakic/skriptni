@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url('img/BG58-01\ 1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 1200px;
+    max-width: 1600px;
+    max-height: 1200px;
+    min-width: 1600px;
+    min-height: 1200px;
+}
+.menu{
+    padding-left: 158px;
+    padding-top: 64px;
+    width: 32px;
+    height: 22px;
+    position: absolute;
+}
+.logo{
+    padding-left: 764px;
+    padding-top: 61px;
+    width: 110px;
+    height: 117px;
+    position: absolute;
+}
+.nav{
+    display: flex;
+    float: right;
+    width: 348px;
+    height: 17px;
+    margin-top: 67px;
+    margin-right: 158px;
+}
+.navtext{
+    padding-left: 9px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    letter-spacing: 0.085em;
+}
+.monsterlogo{
+    position: absolute;
+    width: 322px;
+    height: 20px;
+    left: 658px;
+    top: 223px;
+}
+.bignumber{
+    position: absolute;
+    width: 349px;
+    height: 240px;
+    left: 645px;
+    top: 234px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 240px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 32px rgba(0, 0, 0, 0.6);
+}
+.motor{
+    position: absolute;
+    width: 1050px;
+    height: 650px;
+    left: 275px;
+    top: 243px;
+    z-index: 10;
+}
+.container{
+    position: absolute;
+    width: 1440px;
+    height: 446px;
+    left: 80px;
+    top: 666px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 30px rgba(60, 49, 13, 0.15);
+    border-radius: 50px;
+}
+.info{
+    position: absolute;
+    width: 238px;
+    height: 333px;
+    left: 160px;
+    top: 710px;
+}
+.buttonred{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 610px;
+    top: 938px;
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+    background-color: #DF1F26;
+    border-radius: 16px;
+}
+.colorred{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #DF1F26;
+    border-radius: 16px;
+}
+.buttonblack{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 755px;
+    top: 933px;
+    filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.6));
+    background: #141414;
+    border-radius: 16px;
+}
+.colorblack{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #141414;
+    border-radius: 16px;
+}
+.buttongray{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 910px;
+top: 938px;
+filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+background: #E4E4E4;
+    border-radius: 16px;
+
+}
+.colorgray{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    
+    background: #E4E4E4;
+    border-radius: 16px;
+}
+    
+.smallstats{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #181818;
+}
+.bigstats{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.095em;
+    color: #181818;
+}
+.italianno{
+    position: absolute;
+    width: 341px;
+    height: 102px;
+    left: 1094px;
+    top: 937px;
+    font-family: Italianno;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 51px;
+    letter-spacing: 0.135em;
+    color: #707070;
+}
